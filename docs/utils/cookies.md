@@ -12,7 +12,7 @@ Remix的`Cookie`接口提供了一个逻辑上可重用的cookie元数据容器�
 
 虽然您可以手动创建这些 cookies，但更常见的是使用 [session storage][sessions]。
 
-在 Remix 中，您通常会在 `loader` 和/或 `action` 函数中处理 cookies（请参阅 <Link to="../mutations">mutations</Link>），因为这些是您需要读取和写入数据的地方。
+在 Remix 中，您通常会在 `loader` 和/或 `action` 函数中处理 cookies，因为这些是您需要读取和写入数据的地方。
 
 假设您在电子商务网站上有一个横幅，提示用户查看您当前正在促销的商品。横幅横跨您主页的顶部，并在一侧包含一个按钮，允许用户关闭横幅，这样他们至少在接下来的一周内不会再看到它。
 

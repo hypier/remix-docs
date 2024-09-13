@@ -1,0 +1,86 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.入门": {
+    "message": "入门",
+    "description": "The label for category 入门 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.入门.link.generated-index.description": {
+    "message": "了解如何使用我们的组件库",
+    "description": "The generated-index page description for category 入门 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.讨论主题": {
+    "message": "讨论主题",
+    "description": "The label for category 讨论主题 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.讨论主题.link.generated-index.description": {
+    "message": "探讨与我们产品相关的重要话题",
+    "description": "The generated-index page description for category 讨论主题 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.文件约定": {
+    "message": "文件约定",
+    "description": "The label for category 文件约定 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.文件约定.link.generated-index.description": {
+    "message": "了解我们的文件命名和组织约定",
+    "description": "The generated-index page description for category 文件约定 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.路由模块": {
+    "message": "路由模块",
+    "description": "The label for category 路由模块 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.路由模块.link.generated-index.description": {
+    "message": "了解我们的路由模块及其使用方法",
+    "description": "The generated-index page description for category 路由模块 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.组件": {
+    "message": "组件",
+    "description": "The label for category 组件 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.组件.link.generated-index.description": {
+    "message": "了解如何使用我们的组件库",
+    "description": "The generated-index page description for category 组件 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.钩子": {
+    "message": "钩子",
+    "description": "The label for category 钩子 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.钩子.link.generated-index.description": {
+    "message": "了解我们提供的各种钩子函数及其用法",
+    "description": "The generated-index page description for category 钩子 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.实用工具": {
+    "message": "实用工具",
+    "description": "The label for category 实用工具 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.实用工具.link.generated-index.description": {
+    "message": "这里是关于 Remix 实用工具的文档。",
+    "description": "The generated-index page description for category 实用工具 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.样式": {
+    "message": "样式",
+    "description": "The label for category 样式 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.样式.link.generated-index.description": {
+    "message": "这里是关于 Remix 样式的文档。",
+    "description": "The generated-index page description for category 样式 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.其他API": {
+    "message": "其他API",
+    "description": "The label for category 其他API in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.其他API.link.generated-index.description": {
+    "message": "探索我们提供的其他API功能和用法",
+    "description": "The generated-index page description for category 其他API in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.指南": {
+    "message": "指南",
+    "description": "The label for category 指南 in sidebar tutorialSidebar"
+  },
+  "sidebar.tutorialSidebar.category.指南.link.generated-index.description": {
+    "message": "深入了解我们产品的各种使用指南",
+    "description": "The generated-index page description for category 指南 in sidebar tutorialSidebar"
+  }
+}
