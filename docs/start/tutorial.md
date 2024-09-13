@@ -7,7 +7,7 @@ position: 2
 
 我们将构建一个小而功能丰富的应用，让您可以跟踪您的联系人。这里没有数据库或其他“生产就绪”的东西，因此我们可以专注于 Remix。如果您跟着做，我们预计大约需要 30 分钟，否则这只是快速阅读。
 
-<img class="tutorial" src="/docs-images/contacts/01.webp" />
+<img class="tutorial" src="https://remix.run/docs-images/contacts/01.webp" />
 
 👉 **每当您看到这个标志时，意味着您需要在应用中执行某些操作！**
 
@@ -38,7 +38,7 @@ npm run dev
 
 您应该能够打开 [http://localhost:5173][http-localhost-5173] 并看到一个未样式化的屏幕，类似于这样：
 
-<img class="tutorial" src="/docs-images/contacts/03.webp" />
+<img class="tutorial" src="https://remix.run/docs-images/contacts/03.webp" />
 
 ## 根路由
 
@@ -136,7 +136,7 @@ export const links: LinksFunction = () => [
 
 现在应用的样子应该是这样的。拥有一个既能设计又能编写 CSS 的设计师真是太好了，是吧？（谢谢你，[Jim][jim] 🙏）。
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/04.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/04.webp" />
 
 ## 联系人路由 UI
 
@@ -258,7 +258,7 @@ const Favorite: FunctionComponent<{
 
 现在，如果我们点击其中一个链接或访问 `/contacts/1`，我们得到的 ... 没有新内容？
 
-<img class="tutorial" loading="lazy" alt="contact route with blank main content" src="/docs-images/contacts/05.webp" />
+<img class="tutorial" loading="lazy" alt="contact route with blank main content" src="https://remix.run/docs-images/contacts/05.webp" />
 
 ## 嵌套路由和插座
 
@@ -297,7 +297,7 @@ export default function App() {
 
 现在子路由应该通过插座渲染了。
 
-<img class="tutorial" loading="lazy" alt="contact route with the main content" src="/docs-images/contacts/06.webp" />
+<img class="tutorial" loading="lazy" alt="contact route with the main content" src="https://remix.run/docs-images/contacts/06.webp" />
 
 ## 客户端路由
 
@@ -434,7 +434,7 @@ export default function App() {
 
 就是这样！Remix 现在将自动保持这些数据与您的 UI 同步。侧边栏现在应该看起来像这样：
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/07.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/07.webp" />
 
 ## 类型推断
 
@@ -456,7 +456,7 @@ export default function App() {
 
 我们应该再次看到我们旧的静态联系页面，唯一的不同是：URL 现在有一个真实的记录 ID。
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/08.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/08.webp" />
 
 还记得 `app/routes/contacts.$contactId.tsx` 文件名中的 `$contactId` 部分吗？这些动态段将匹配 URL 中该位置的动态（变化）值。我们称这些 URL 中的值为“URL 参数”，简称“参数”。
 
@@ -489,7 +489,7 @@ export default function Contact() {
 // existing code
 ```
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/10.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/10.webp" />
 
 ## 验证参数并抛出响应
 
@@ -550,7 +550,7 @@ Remix模拟HTML表单导航作为数据变更的基本操作，这曾是JavaScri
 
 我们可以通过点击应用中的“新建”按钮来测试这一点。
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/09.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/09.webp" />
 
 Remix发送了一个405，因为服务器上没有代码来处理此表单导航。
 
@@ -575,7 +575,7 @@ export const action = async () => {
 
 就这样！继续点击“新建”按钮，你应该会看到一个新记录出现在列表中 🥳
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/11.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/11.webp" />
 
 `createEmptyContact` 方法仅仅是创建一个没有名称或数据的空联系人。但它确实会创建一个记录，保证！
 
@@ -686,7 +686,7 @@ export default function EditContact() {
 
 现在点击您的新记录，然后点击“编辑”按钮。我们应该看到新路由。
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/12.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/12.webp" />
 
 ## 使用 `FormData` 更新联系人
 
@@ -720,7 +720,7 @@ export const action = async ({
 
 填写表单，点击保存，你应该会看到类似这样的内容！<small>(除了更容易看，也许没那么复杂。)</small>
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/13.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/13.webp" />
 
 ## Mutation Discussion
 
@@ -808,7 +808,7 @@ export const action = async () => {
 
 现在当我们点击“新建”时，我们应该会进入编辑页面：
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/14.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/14.webp" />
 
 ## 活动链接样式
 
@@ -869,7 +869,7 @@ export default function App() {
 
 请注意，我们向 `className` 传递了一个函数。当用户处于与 `<NavLink to>` 匹配的 URL 时，`isActive` 将为 true。当它 _即将_ 变为活动状态（数据仍在加载中）时，`isPending` 将为 true。这使我们能够轻松指示用户的位置，并在点击链接但数据需要加载时提供即时反馈。
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/15.webp"/>
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/15.webp"/>
 
 ## 全局待处理 UI
 
@@ -923,7 +923,7 @@ export default function App() {
 
 在我们的案例中，如果我们不是空闲状态，则会将 `"loading"` 类添加到应用程序的主要部分。然后 CSS 在短暂延迟后添加了一个漂亮的淡入效果（以避免快速加载时的闪烁）。不过，您可以做任何您想做的事情，比如在顶部显示旋转器或加载条。
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/16.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/16.webp" />
 
 ## 删除记录
 
@@ -995,7 +995,7 @@ export const action = async ({
 
 当我们加载应用时，您会注意到列表右侧有一个大空白页面。
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/17.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/17.webp" />
 
 当一个路由有子路由，并且您处于父路由的路径时，`<Outlet>` 没有内容可渲染，因为没有子路由匹配。您可以将索引路由视为填充该空间的默认子路由。
 
@@ -1024,7 +1024,7 @@ export default function Index() {
 
 路由名称 `_index` 是特殊的。它告诉 Remix 在用户处于父路由的确切路径时匹配并渲染此路由，因此在 `<Outlet />` 中没有其他子路由可渲染。
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/18.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/18.webp" />
 
 瞧！没有更多的空白空间。通常在索引路由中放置仪表板、统计信息、动态信息等。它们也可以参与数据加载。
 
@@ -1111,7 +1111,7 @@ export const loader = async ({
 // existing code
 ```
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/19.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/19.webp" />
 
 因为这是一个 `GET`，而不是 `POST`，Remix _不_ 调用 `action` 函数。提交一个 `GET` `form` 与点击链接是一样的：只有 URL 发生了变化。
 
@@ -1435,13 +1435,13 @@ export default function App() {
 
 现在你应该在搜索输入框的左侧有一个漂亮的加载指示器。
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/20.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/20.webp" />
 
 ## 管理历史栈
 
 由于每次按键都会提交表单，输入字符“alex”然后用退格键删除它们会导致历史栈变得非常庞大 😂。我们绝对不想要这个：
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/21.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/21.webp" />
 
 我们可以通过_替换_历史栈中的当前条目来避免这种情况，而不是将其推入历史栈。
 
@@ -1560,7 +1560,7 @@ export const action = async ({
 
 好了，我们准备点击用户姓名旁边的星星了！
 
-<img class="tutorial" loading="lazy" src="/docs-images/contacts/22.webp" />
+<img class="tutorial" loading="lazy" src="https://remix.run/docs-images/contacts/22.webp" />
 
 看看这个，两个星星都会自动更新。我们的新 `<fetcher.Form method="post">` 几乎和我们一直使用的 `<Form>` 一样：它调用 action，然后所有数据都会自动重新验证——即使是你的错误也会以相同的方式被捕获。
 
