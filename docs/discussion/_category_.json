@@ -1,0 +1,8 @@
+{
+  "label": "讨论主题",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "探讨与我们产品相关的重要话题"
+  }
+}
