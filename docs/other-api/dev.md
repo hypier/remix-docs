@@ -1,6 +1,6 @@
 ---
 title: "@remix-run/dev CLI"
-order: 2
+position: 2
 new: true
 ---
 

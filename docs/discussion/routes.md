@@ -1,6 +1,6 @@
 ---
 title: 路由配置
-order: 3
+position: 3
 ---
 
 # 路由配置

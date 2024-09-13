@@ -1,6 +1,6 @@
 ---
 title: 应用教程（长）
-order: 4
+position: 4
 hidden: true
 ---
 

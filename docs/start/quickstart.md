@@ -1,6 +1,6 @@
 ---
 title: 快速入门 (5分钟)
-order: 1
+position: 1
 ---
 
 # 快速开始

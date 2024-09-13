@@ -1,7 +1,7 @@
 ---
 title: 社区
 description: 学习 Remix 和相关技术的社区资源
-order: 4
+position: 4
 ---
 
 # 社区

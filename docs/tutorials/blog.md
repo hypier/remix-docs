@@ -1,6 +1,6 @@
 ---
 title: 博客教程（短）
-order: 3
+position: 3
 hidden: true
 ---
 

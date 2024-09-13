@@ -1,6 +1,6 @@
 ---
 title: 教程 (30分钟)
-order: 2
+position: 2
 ---
 
 # Remix 教程
